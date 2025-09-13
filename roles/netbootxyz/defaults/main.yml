@@ -188,25 +188,6 @@ releases:
       name: 10.0 Stream
     - code_name: 9-stream
       name: 9.0 Stream
-  centos-coreos:
-    base_dir: centos/scos
-    enabled: true
-    menu: linux
-    mirror: https://cloud.centos.org
-    name: CentOS Stream CoreOS
-    versions:
-    - code_name: 9.0.20250222-0
-      name: 9.0.20250222-0
-      major_version: 9
-    - code_name: 9.0.20250411-0
-      name: 9.0.20250411-0
-      major_version: 9
-    - code_name: 9.0.20250510-0
-      name: 9.0.20250510-0
-      major_version: 9
-    - code_name: 10.0.20250628-0
-      name: 10.0.20250628-0
-      major_version: 10
   coreos:
     base_dir: prod/streams
     enabled: true
@@ -497,6 +478,25 @@ releases:
       name: 9 (Latest)
     - code_name: 8
       name: 8 (Latest)
+  scos:
+    base_dir: centos/scos
+    enabled: true
+    menu: linux
+    mirror: https://cloud.centos.org
+    name: CentOS Stream CoreOS
+    versions:
+    - code_name: 9.0.20250222-0
+      name: 9.0.20250222-0
+      major_version: 9
+    - code_name: 9.0.20250411-0
+      name: 9.0.20250411-0
+      major_version: 9
+    - code_name: 9.0.20250510-0
+      name: 9.0.20250510-0
+      major_version: 9
+    - code_name: 10.0.20250628-0
+      name: 10.0.20250628-0
+      major_version: 10
   slackware:
     base_dir: slackware
     enabled: true
